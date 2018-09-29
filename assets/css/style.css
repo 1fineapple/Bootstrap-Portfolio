@@ -1,0 +1,234 @@
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+
+  #header {
+    color: #ffffff;
+    background: #ffffff;;
+    width: 100%;
+    font-family: Times, serif;
+
+  }
+
+  #navcolor {
+    background:#fff
+  }
+
+.rightnav {
+float:right;
+margin-right: 200px;
+font-family: 'Georgia', Times, serif;
+
+  }
+
+
+  #jessa {
+    
+    color: #ffffff;
+    background:  #4aaaa5;
+    width:15%;
+    height: 70px;
+    margin-left: 60px;
+    float: left;
+    font-size: 25px;
+    margin-bottom: 0x;
+    
+
+    
+  
+  }
+
+
+  .wrapper{
+    background: #eee;
+    padding:50px;
+    border-top: 3px solid #ccc;
+    height:640px;
+  
+  }
+
+  .bio {
+  
+    padding-top: 10px;
+    color: #ffffff;
+    background: #fff;  
+    display: block;
+    width:960px;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid #ddd;
+
+  }
+
+  .extrawrap{
+    border-top: 3px solid #ccc;
+    margin:20px;
+    padding:20px;
+    text-align: left;
+
+  }
+
+  
+.imgcontainer{
+  float: left;
+  width: 33%;
+}
+  .clearfix {
+    overflow:auto;
+
+}
+
+
+  .aboutme{
+    
+    color: #4aaaa5;
+    background:  #ffffff;
+    text-align:left;
+    font-family: Arial, 'Helvetica Neue';
+    margin-left:20px;
+  
+  }
+
+  .linkedin {
+    float:left;
+    height:200px;
+   
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+
+  }  
+ 
+
+  .profilebox {
+    
+    background: #ffffff;
+    font-family:Arial, 'Helvetica Neue';
+    color: #666;
+
+  }
+
+  .profilecontainer{
+    margin:20px;
+  
+  }
+  
+
+.fname{
+  color:grey;
+  width:100%;
+  
+
+}
+
+.email{
+  color:grey;
+  width:100%;
+
+}
+
+.message{
+  color:grey;
+  width:100%;
+
+}
+
+.submit{
+  background:#4aaaa5;
+  height:30px;
+  width:60px;
+  color:white;
+  
+}
+
+
+.manwalking{
+  position: relative;
+  height: 80px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+
+  
+}q
+
+
+
+
+  /* .manwalking:nth-of-type(3){
+    visibility:hidden
+  } */
+
+  .sombre{
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 250px;
+    padding: 20px;
+    text-align: cente
+  
+   
+  }
+
+  .river{
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 250px;
+    padding: 20px;
+    text-align: cente
+  
+  }
+
+  rocky{
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 250px;
+    padding: 20px;
+    text-align: cente
+  
+  }
+  fall{
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 250px;
+    padding: 20px;
+    text-align: cente
+  
+  }
+
+  road{
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 250px;
+    padding: 20px;
+    text-align: cente
+  
+  }
+  .caption{
+    color:#ffffff;
+    background:#4aaaa5;
+    height: 20px;
+    margin:5px;
+  
+  }
+
+
+  .primaryfooter {
+    color:#ffffff;  
+    background: #666; 
+    bottom:0;
+    border-top: 3px solid #4aaaa5;
+
+  }
+
+ 
