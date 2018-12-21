@@ -7,63 +7,92 @@
 <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+         <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 
 
 <body>
-
- <header id="header"class="clearfix">
-
-
-        <div id="jessa">
-            <h2>Jessa Molyneux </h2>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <span class="navbar-brand mb-1 h1" id= "jessa">Jessa Molyneux</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse navigation" id="navbarSupportedContent">    
+            <ul class="navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
-
-        
-
-    <div class="rightnav">
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-    </div>
-          
-
- </header>
+     </nav>
 
  <div class="wrapper clearfix"> 
-    <div class="bio clearfix">
-                    <h1 class="about-me">Contact</h1>
-                    
-                    <form class="extrawrap">
+    <div  class="bio clearfix" >
+        <h1 class="aboutme">Contact</h1>   
+            <form class="extrawrap">                    
+                <div class="form-group">
+                    <label for="exampleInputEmail1"></label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+                </div>
+        
+                <div class="form-group">
+                        <label for="exampleFormControlTextarea1"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="...Write your message here"></textarea>
+                        </div>
+                <button type="submit" class="btn btn-primary">Submit</button>      
+            </form>
+    </div>
+</div>  
 
-                            
-                                    <div class="form-group">
-                                      <label for="exampleInputEmail1">Email address</label>
-                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                                    </div>
-                                    <div class="form-group">
-                                      <label for="exampleInputPassword1">Name</label>
-                                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Name">
-                                    </div>
-                                    <div class="form-group">
-                                            <label for="exampleFormControlTextarea1">Example textarea</label>
-                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                         </div>
 
-                                    <button type="submit" class="btn btn-primary">Submit</button>
-                                  
-                  
-                    
-                        
-                    </form>
-                
+<footer class= "footerContainer navbar-dark bg-dark">
+    <div class="row"> 
+        <div class="col-sm-4 mediaContainer">
+                <a class="mediumBtn smGlobalBtn" href="#" ></a>
+                <a class="twitterBtn smGlobalBtn" href="#" ></a>
+                <a class="youtube smGlobalBtn" href="#"></a> 
+                <a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/in/jessa-molyneux-851a9863/" ></a>
+        </div>
+        <div class="col-sm-4">
 
-    </div>  
+        </div>
+        <div class="col-sm-4">         
+            <ol class = "removeOl">
+            <h4>Quick Links</h4>
+            <li><a class="web-link" href="index.html">>>Home</a></li>
+            <li><a class="web-link" href="contact.html">>>About</a></li>
+            <li><a class="web-link" href="https://medium.com/@jessa.molyneux">>>Medium Page</a></li> 
+            <li><a class="web-link" href="portfolio.html">>>Portfolio</a></li> 
+            <li><a class="web-link" href="https://www.linkedin.com/in/jessa-molyneux-851a9863/">>>Contact</a></li> 
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class = "copyrightLine">
+        <div class="col-sm-12 ">
+        Copyright 2018 &copy;  
+        | All Rights Reserved
+        </div>
+        </div>
+    </div>      
+</footer>
 
-    <footer class="primaryfooter clearfix">
-            <small>Copyright &copy;</small>
-        </footer>
 
 </body>
 
